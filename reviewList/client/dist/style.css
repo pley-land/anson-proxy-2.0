@@ -1,0 +1,206 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial;
+  font-size: 13px;
+  color: #333333;
+  background: #FEFEFE;
+}
+
+#review-list {
+  margin-top: 70px;
+  margin-left: 20%;
+}
+
+#review-panels {
+  border-bottom: 1px solid #e6e6e6;
+  padding: 18px 0;
+  padding-bottom: 17px;
+  width: 629px;
+  min-height: 230px;
+}
+#header {
+  color: #d32323;
+  font-weight: bold;
+  font-size: 21px;
+  margin-bottom 6px:
+}
+#header-restaurant {
+  color: #333;
+  font-weight: normal;
+  margin-left: 8px;
+}
+#static-bar {
+  border-bottom: 1px solid #e6e6e6;
+  padding: 18px 0;
+  width: 629px;
+}
+#review-panels {
+  display: flex;
+  flex-direction: row;
+}
+#left-panel {
+  width: 248px;
+}
+#user-info {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 1em;
+}
+#user-image {
+  padding-right: 1em;
+  width: 60px;
+  height: 60px;
+}
+.img-border {
+  border-radius: 10%;
+  width: 60px;
+  height: 60px;
+}
+#user-description {
+  display: flex;
+  width: 200px;
+  flex-direction: column;
+  color: #666;
+}
+.icon {
+  fill: rgb(241, 92, 0);
+  padding-right: 1px;
+}
+.user-name {
+  color: #0073bb;
+  font-weight: bold;
+  padding-bottom: 0.2em;
+}
+.user-location {
+  color: #333;
+  font-weight: bold;
+  padding-bottom: 0.2em;
+}
+#right-panel {
+  width: 381.87px;
+  display: flex;
+  flex-direction: column;
+}
+#top-line {
+  display: flex;
+  flex-direction: row;
+  padding-top: 0.2em;
+  padding-bottom: 0.5em;
+}
+#star-icon-bar {
+}
+#review-text {
+  padding-top: 0.2em;
+  padding-right: 0.2em;
+}
+#review-date {
+  color: #666;
+  padding-top: 0.1em;
+}
+#feedback-question {
+  padding-left: 0.1em;
+  padding-top: 2em;
+  font-weight: bold;
+  color: #666;
+  font-size: 12px;
+}
+#feedback-bar {
+  display: flex;
+  padding-top: 0.3em;
+  flex-direction: row;
+  font-weight: bold;
+  font-size: 12px;
+  color: #666;
+  width: 381.87px;
+}
+button {
+  font-family: inherit;
+  color: inherit
+  font-size: 12px;
+  font-weight: bolder;
+  color: #666;
+  border-radius: 7%;
+  text-align: center;
+}
+.button-count {
+  font-weight: normal;
+  margin-left: 0.3em;
+}
+.feedback-button {
+  white-space: nowrap;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  padding-left: 0.4em;
+  padding-right: 0.4em;
+  margin-right: 7px;
+  vertical-align: middle;
+}
+.funny {
+  vertical-align: middle;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+}
+#flag-button {
+  margin-left: 65px;
+  font-size: 11px;
+  color: #A9A9A9;
+  padding-top: 0.4em;
+  padding-bottom: 0.4em;
+  padding-left: 0.4em;
+  padding-right: 0.4em;
+}
+#flag {
+  width: 0.8em;
+}
+#review-panels:hover #hover-info{
+  display: flex; 
+  opacity: 1;
+}
+#hover-info {
+  display: flex;
+  opacity: 0;
+  transition: 0.7s;
+  flex-direction: row;
+}
+#hover-icons {
+  transition: opacity 0.5s linear;
+  display: flex;
+  flex-direction: column;
+  padding-right: 1em;
+}
+#hover-labels {
+  transition: opacity 0.5s linear;
+  display: flex;
+  flex-direction: column;
+  color: #0073bb;
+  font-weight: bold;
+  width: 80%;
+}
+.share-review:hover {
+  text-decoration: underline;
+  cursor: pointer;
+} 
+.embed-review:hover { 
+  text-decoration: underline;
+  cursor: pointer;
+}
+.compliment:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.send-message:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.follow-user:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.share-review, .embed-review, .compliment, .send-message {
+  border-bottom: 0.3px solid #ededed;
+  padding-bottom: 0.5em;
+}
+#share, #embed, #compliment, #send, #follow{
+  padding-bottom: 0.35em;
+}

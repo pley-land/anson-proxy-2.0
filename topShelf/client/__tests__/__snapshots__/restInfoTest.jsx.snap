@@ -1,0 +1,99 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing RestInfo should render the whole component 1`] = `
+<div
+  className="content-rest-info"
+>
+  <h1
+    id="rest-name-title"
+  />
+  <div
+    className="rest-info-numbers"
+  >
+    <div
+      id="ratings"
+    >
+      <div
+        className="starDiv-empty"
+      >
+        <i
+          className="material-icons stars-empty icon-white stars"
+        >
+          star
+        </i>
+      </div>
+      <div
+        className="starDiv-empty"
+      >
+        <i
+          className="material-icons stars-empty icon-white stars"
+        >
+          star
+        </i>
+      </div>
+      <div
+        className="starDiv-empty"
+      >
+        <i
+          className="material-icons stars-empty icon-white stars"
+        >
+          star
+        </i>
+      </div>
+      <div
+        className="starDiv-empty"
+      >
+        <i
+          className="material-icons stars-empty icon-white stars"
+        >
+          star
+        </i>
+      </div>
+      <div
+        className="starDiv-empty"
+      >
+        <i
+          className="material-icons stars-empty icon-white stars"
+        >
+          star
+        </i>
+      </div>
+    </div>
+    <div
+      id="reviews"
+    >
+      undefined reviews
+    </div>
+    <div
+      id="details"
+    >
+      <a
+        href=""
+      >
+        Details
+      </a>
+    </div>
+  </div>
+  <div
+    id="rest2"
+  >
+    <div
+      id="price-range"
+    />
+    <div
+      id="rest-tags"
+    >
+      <a
+        href="https://www.google.com/search?q=Chinese+cuisine"
+      >
+        Chinese, 
+      </a>
+      <a
+        href="https://www.google.com/search?q=Japanese+cuisine"
+      >
+        Japanese
+      </a>
+    </div>
+  </div>
+</div>
+`;

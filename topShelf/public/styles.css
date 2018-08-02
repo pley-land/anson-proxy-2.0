@@ -1,0 +1,269 @@
+body {
+	font-family: Arial;
+}
+
+a {
+    text-decoration: none;
+    color: #0073bb;
+    font-size: 16px;
+}
+
+#searchBar {
+	width: 100%;
+}
+
+/* App */
+.top-container {
+	background-color: #f2f2f2;
+	border-bottom: 1px lightgrey solid;
+	height: 400px;
+	/*position: fixed;*/
+	width: 100%;
+	margin-top: 0;
+}
+
+.top-content-container {
+	width: 65%;
+	height: 425px;
+	margin: 0 17%;
+	/*position: fixed;*/
+}
+
+.content-header-container {
+	display: flex;
+	flex-drection: row;
+	width: 100%;
+}
+
+.content-map-info {
+	width: 300px;
+	height: 300px;
+	background-color: white;
+	margin-top: 2%;
+	border: 1px lightgrey solid;
+}
+
+.galleryImg {
+	display: inline-block;
+	float: left;
+	margin-top: -300px;
+	margin-left: 300px;
+	height: 300px;
+	width: auto;
+}
+
+/* MapInfo*/
+.map-info {
+	margin: 150px 10px 0 10px;
+	height: 150px;
+	display: flex;
+	flex-direction: column;
+}
+
+.maptext {
+	margin: 4px 0;
+}
+
+i.mi-icons {
+	font-size: 14px;
+}
+
+/* MapView */
+.gMap {
+	width: 0% !important;
+	height: 0% !important;
+}
+
+/* RestInfo*/
+.starDiv-full {
+	background-color: red;
+	height: 25px;
+	width: 25px;
+	margin: 2px;
+	border-radius: 4px;
+	opacity: 0.7;
+}
+
+.starDiv-half {
+	background: linear-gradient(90deg, red 50%, lightgrey 50%);
+	height: 25px;
+	width: 25px;
+	margin: 2px;
+	border-radius: 4px;
+	opacity: 0.7;
+}
+
+.starDiv-empty {
+	background-color: lightgrey;
+	height: 25px;
+	width: 25px;
+	margin: 2px;
+	border-radius: 4px;
+	opacity: 0.7;
+}
+
+i.icon-white {
+	color: white;
+	margin: 2px;
+	border-radius: 5px;
+}
+
+i.stars {
+	font-size: 21px;
+	text-align: center;
+}
+
+i.dollar-sign {
+	margin: 0-4px;
+	font-size: 20px;
+}
+
+.rest-info-numbers {
+	display: flex;
+	flex-direction: row;
+	width: 300px;
+	margin-top: -10px;
+}
+
+#rest-name-title {
+	margin-bottom: 10px;
+	margin-top: 20px;
+	font-size: 40px;
+	white-space: nowrap;
+}
+
+#ratings {
+	flex-grow: 1;
+	display: flex;
+	flex-direction: row;
+}
+
+#reviews {
+	flex-grow: 0.5;
+	margin-left: -110px;
+	margin-top: 4px;
+	font-size: 16px;
+}
+
+#rest2 {
+	display: flex;
+	flex-direction: row;
+	width: 150px;
+	margin-top: 5px;
+}
+
+#price-range {
+	margin-right: 20px;
+	display: flex;
+	flex-direction: row;
+}
+
+#rest-tags {
+	font-size: 18px;
+	color: #b3ccff;
+	display: flex;
+	flex-direction: row;
+}
+
+.cusineTags {
+	margin-right: 5px;
+}
+/* UserButtons */
+
+.content-user-buttons {
+	position: absolute;
+	margin-top: 5%;
+	margin-left: 30%;
+	display: flex;
+	flex-direction: row;
+	margin-left: 520px;
+}
+
+
+/*button {
+	width: 160px;
+	height: 40px;
+	display: flex;
+	flex-direction: row;
+	font-size: 14px;
+	font-weight: bold;
+	background-color: #8B0000;
+	border-radius: 5px;
+}*/
+
+.spanDiv {
+	margin-left: 10px;
+	display: flex;
+	flex-direction: row;
+}
+
+.buttonText-m {
+	margin-top: 5%;
+}
+
+.buttonText-sm {
+	margin-top: 10%;
+}
+
+i.icon-sm {
+	margin-top: 3%;
+}
+
+
+
+i {
+	margin: 5px;
+}
+
+.buttonSpans {
+	font-size: 10px;
+	width: 100px;
+	height: 30px;
+	background-color: #f7f7f7;
+	color: #666;
+	border-color: #ccc;
+}
+
+.map-view {
+	width: 280px;
+	height: 150px;
+	border: 1px black solid;
+	margin: 8px 8px 0 8px;
+}
+
+.reviewButton {
+	color: white;
+	height: 39px;
+	width: 160px;
+	vertical-align: middle;
+	display: flex;
+	flex-direction: row;
+	font-size: 14px;
+	font-weight: bold;
+	background-color: #c91400;
+	border-radius: 3px;
+	border-color: #8d0005;
+}
+
+.leftSpan {
+	border-radius: 5px 0 0 5px;
+	white-space: nowrap;
+	display: flex;
+	flex-direction: row;
+}
+
+.midSpan {
+	border-radius: 0;
+	display: flex;
+	flex-direction: row;
+}
+
+.rightSpan {
+	border-radius: 0 5px 5px 0;
+	display: flex;
+	flex-direction: row;
+}
+
+
+
+

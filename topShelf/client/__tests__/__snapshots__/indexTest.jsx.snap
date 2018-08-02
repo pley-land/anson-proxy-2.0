@@ -1,0 +1,235 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test App should render App properly 1`] = `
+<div
+  className="top-container"
+>
+  <div
+    className="top-content-container"
+  >
+    <div
+      className="content-header-container"
+    >
+      <div
+        className="content-rest-info"
+      >
+        <h1
+          id="rest-name-title"
+        />
+        <div
+          className="rest-info-numbers"
+        >
+          <div
+            id="ratings"
+          >
+            <div
+              className="starDiv-empty"
+            >
+              <i
+                className="material-icons stars-empty icon-white stars"
+              >
+                star
+              </i>
+            </div>
+            <div
+              className="starDiv-empty"
+            >
+              <i
+                className="material-icons stars-empty icon-white stars"
+              >
+                star
+              </i>
+            </div>
+            <div
+              className="starDiv-empty"
+            >
+              <i
+                className="material-icons stars-empty icon-white stars"
+              >
+                star
+              </i>
+            </div>
+            <div
+              className="starDiv-empty"
+            >
+              <i
+                className="material-icons stars-empty icon-white stars"
+              >
+                star
+              </i>
+            </div>
+            <div
+              className="starDiv-empty"
+            >
+              <i
+                className="material-icons stars-empty icon-white stars"
+              >
+                star
+              </i>
+            </div>
+          </div>
+          <div
+            id="reviews"
+          >
+            0 reviews
+          </div>
+          <div
+            id="details"
+          >
+            <a
+              href=""
+            >
+              Details
+            </a>
+          </div>
+        </div>
+        <div
+          id="rest2"
+        >
+          <div
+            id="price-range"
+          />
+          <div
+            id="rest-tags"
+          >
+            <a
+              href="https://www.google.com/search?q=+cuisine"
+            >
+              
+            </a>
+          </div>
+        </div>
+      </div>
+      <div
+        className="content-user-buttons"
+      >
+        <button
+          className="reviewButton"
+          type="button"
+        >
+          <i
+            className="material-icons"
+          >
+            star
+          </i>
+          <span
+            className="buttonText"
+          >
+            Write a Review
+          </span>
+        </button>
+        <div
+          className="spanDiv"
+        >
+          <button
+            className="buttonSpans leftSpan"
+            type="button"
+          >
+            <i
+              className="material-icons"
+            >
+              photo_camera
+            </i>
+            <span
+              className="buttonText"
+            >
+              Add Photo
+            </span>
+          </button>
+          <button
+            className="buttonSpans midSpan"
+            type="button"
+          >
+            <i
+              className="material-icons"
+            >
+              share
+            </i>
+            <span
+              className="buttonText"
+            >
+              Share
+            </span>
+          </button>
+          <button
+            className="buttonSpans rightSpan"
+            type="button"
+          >
+            <i
+              className="material-icons"
+            >
+              save
+            </i>
+            <span
+              className="buttonText"
+            >
+              Save
+            </span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      className="content-body-container"
+    >
+      <div
+        className="content-map-info"
+      >
+        <div>
+          Loading...
+        </div>
+        <div
+          className="map-info"
+        >
+          <p
+            className="map-info-address maptext"
+          >
+            <i
+              className="material-icons mi-icons"
+            >
+              location_on
+            </i>
+            
+          </p>
+          <p
+            className="maptext map-get-direction"
+          >
+            <i
+              className="material-icons mi-icons"
+            >
+              directions
+            </i>
+            Get Directions
+          </p>
+          <p
+            className="map-info-phone maptext"
+          >
+            <i
+              className="material-icons mi-icons"
+            >
+              local_phone
+            </i>
+            
+          </p>
+          <p
+            className="map-info-website maptext"
+            href=""
+          >
+            <i
+              className="material-icons mi-icons"
+            >
+              link
+            </i>
+            
+          </p>
+        </div>
+      </div>
+    </div>
+    <img
+      alt="gallery"
+      className="galleryImg"
+      src="https://s3-us-west-1.amazonaws.com/fec-static-anson/Screen+Shot+2018-07-30+at+12.04.08+PM.png"
+    />
+  </div>
+</div>
+`;
