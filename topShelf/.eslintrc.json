@@ -1,0 +1,23 @@
+{
+  "extends": "airbnb",
+  "parserOptions": {
+      "sourceType": "module"
+  },
+  "plugins": [
+    "react"
+  ],
+  "env": {
+    "browser": true,
+    "node": true,
+    "jasmine": true,
+    "es6": true,
+    "jest": true
+  },
+  "rules": {
+    "no-console": "off",
+    "no-else-return": ["error", { "allowElseIf": true }]
+  },
+  "globals": {
+    "google": false
+  }
+}
