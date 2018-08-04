@@ -18,4 +18,3 @@ EXPOSE 3001
 
 # How do you start your app?
 CMD [ "npm", "start" ]
-CMD [ "npm", "run build"]

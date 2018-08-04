@@ -38,7 +38,7 @@ export default class App extends React.Component {
   getInfo() {
     const { name } = this.state;
     $.ajax({
-      url: `http://localhost:3001/biz/${name}/info`,
+      url: `localhost:3001/biz/${name}/info`,
       method: 'GET',
       dataType: 'json',
     }).then((response) => {

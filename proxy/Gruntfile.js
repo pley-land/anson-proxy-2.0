@@ -32,31 +32,33 @@ module.exports = function(grunt) {
         dest: 'dist/applib.js'
       }
     },
-    aws: grunt.file.readJSON('aws-keys.json'),
+    // aws: grunt.file.readJSON('aws-keys.json'),
   
-    aws_s3: {
-        options: {
-            accessKeyId: '<%= aws.AWSAccessKeyId %>',
-            secretAccessKey: '<%= aws.AWSSecretKey %>',
-            region:'us-west-1',
-            access:'bucket-owner-full-control',
-        },
-        dist: {
-            options: {
-                bucket: 'fec-static-anson'
-            },
-            files: [
-              {
-                action: 'upload',
-                expand: true,
-                cwd: 'dist/',
-                src: ['applib.js', 'styles.min.css'],
-                dest: '/app'
-              }
-            ]
-        }
-    }
+    // aws_s3: {
+    //     options: {
+    //         accessKeyId: '<%= aws.AWSAccessKeyId %>',
+    //         secretAccessKey: '<%= aws.AWSSecretKey %>',
+    //         region:'us-west-1',
+    //         access:'bucket-owner-full-control',
+    //     },
+    //     dist: {
+    //         options: {
+    //             bucket: 'fec-static-anson'
+    //         },
+    //         files: [
+    //           {
+    //             action: 'upload',
+    //             expand: true,
+    //             cwd: 'dist/',
+    //             src: ['applib.js', 'styles.min.css'],
+    //             dest: '/app'
+    //           }
+    //         ]
+    //     }
+    // }
   });
 
-  grunt.registerTask("default", ["uglify", "cssmin", "aws_s3:dist"]); 
+  grunt.registerTask("default", ["uglify", "cssmin"]); 
 };
+
+// , "aws_s3:dist"
