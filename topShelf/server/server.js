@@ -30,4 +30,5 @@ app.get('/biz/:restaurant/info', (req, res) => {
 
 app.listen(port, () => {
   console.log(`Listening to port ${port}`);
+  console.log(process.env.GOOGLE_API_KEY);
 });
