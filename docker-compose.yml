@@ -1,0 +1,28 @@
+version: '3'
+
+services:
+  proxy:
+    build: proxy/
+    depends_on:
+      - 'topshelf'
+      - 'ts_database'
+    ports:
+      - '3000:3000'
+
+  topshelf:
+    build: topShelf/
+    depends_on:
+      - 'ts_database'
+    ports:
+      - '3001:3001'
+
+  ts_database:
+    build: topShelf/database/
+    image: mysql:5.7.22
+    container_name: database
+    ports:
+      - "3306:3306"
+    environment:
+      - MYSQL_ALLOW_EMPTY_PASSWORD='yes'
+      - MYSQL_DATABASE=pley
+      - MYSQL_USER=root

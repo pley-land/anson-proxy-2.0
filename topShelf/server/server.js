@@ -14,11 +14,12 @@ app.use((req, res, next) => {
   res.set("Access-Control-Allow-Origin", "*");
   next();
 });
+app.use('/', express.static(`${__dirname}/../public`));
+app.use('/biz/:restaurant/google', express.static(`${__dirname}/../client/config/google.js`));
 app.use('/biz/:restaurant', express.static(`${__dirname}/../public`));
-app.use('/google', express.static(`${__dirname}/../client/config/google.js`));
 
 app.get('/biz/:restaurant/info', (req, res) => {
-  // req.params.restaurant
+  console.log(req.params.restaurant);
   db.getRestInfo(req.params.restaurant).then((response) => {
     res.status(200).json(response);
   }, (err) => {
@@ -29,4 +30,5 @@ app.get('/biz/:restaurant/info', (req, res) => {
 
 app.listen(port, () => {
   console.log(`Listening to port ${port}`);
+  console.log(process.env.GOOGLE_API_KEY);
 });
