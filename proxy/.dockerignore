@@ -1,2 +1,5 @@
 node_modules
 npm-debug.log
+applib.js
+styles.min.css
+Gruntfile.js

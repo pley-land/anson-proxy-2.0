@@ -1,14 +1,6 @@
 version: '3'
 
 services:
-  proxy:
-    build: proxy/
-    depends_on:
-      - 'topshelf'
-      - 'ts_database'
-    ports:
-      - '3000:3000'
-
   topshelf:
     build: topShelf/
     depends_on:

@@ -10,6 +10,7 @@ const connection = mysql.createConnection({
 // const infowindow = new google.maps.InfoWindow;
 
 const getRestInfo = (name) => {
+  console.log(name, ' from database12345');
   let query = '';
   if (name === 'get all data') {
     query = 'SELECT * FROM restaurants';
