@@ -22,8 +22,8 @@ export default class App extends React.Component {
       price: 0,
       averageRating: 0,
       reviews: 0,
-      lat: 0,
-      lng: 0,
+      lat: 37.76243668,
+      lng: -122.41220969,
     };
   }
 
@@ -34,11 +34,11 @@ export default class App extends React.Component {
   getInfo() {
     const { name } = this.state;
     $.ajax({
-      url: `http://localhost:3001/biz/${name}/info`,
+      url: `http://ec2-54-153-112-75.us-west-1.compute.amazonaws.com:3001/info/${name}`,
       method: 'GET',
       dataType: 'json',
     }).then((response) => {
-      Geocode.setApiKey(GOOGLE_API_KEY2);
+      Geocode.setApiKey(GOOGLE_API_KEY);
       Geocode.fromLatLng(response.lat, response.lng).then(
         (geoResponse) => {
           this.setState({
